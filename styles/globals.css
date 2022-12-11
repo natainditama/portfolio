@@ -1,3 +1,128 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply font-normal bg-light font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-medium font-title;
+  }
+}
+
+@layer components {
+  @import url("./button.css");
+
+  .scrollbar {
+    @apply absolute !right-0 !top-0 z-[80] h-full !w-3 origin-right !bg-transparent opacity-0 transition duration-500 hover:opacity-100 hover:duration-300;
+  }
+
+  .has-scroll-scrolling .scrollbar,
+  .has-scroll-dragging .scrollbar {
+    @apply opacity-100;
+  }
+
+  .scrollbar .scrollbar_thumb {
+    @apply absolute top-0 right-0 w-2 m-1 rounded opacity-50 cursor-grab bg-dark;
+  }
+
+  .swiper-scrollbar .scrollbar_thumb {
+    @apply cursor-default !duration-700;
+  }
+
+  .has-scroll-dragging .scrollbar .scrollbar_thumb {
+    @apply cursor-grabbing;
+  }
+
+  [data-scroll-direction="horizontal"] .scrollbar .scrollbar_thumb {
+    @apply bottom-0 right-auto;
+  }
+
+  /* .nav-link {
+    font-weight: 400;
+    display: inline-block;
+    opacity: 0.75;
+    @apply relative px-2;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+
+  .nav-link::before {
+    transition: 300ms;
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    @apply left-0 -bottom-2 bg-neutral-900;
+  }
+
+  .nav-link-grow-up:hover::before {
+    height: 3px;
+  } */
+
+  .nav-link {
+    @apply relative whitespace-nowrap px-1.5;
+  }
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+    transform-origin: 50% 100%;
+    transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    clip-path: polygon(
+      0% 0%,
+      0% 100%,
+      0 100%,
+      0 0,
+      100% 0,
+      100% 100%,
+      0 100%,
+      0 100%,
+      100% 100%,
+      100% 0%
+    );
+  }
+
+  .nav-link:hover::before {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(
+      0% 0%,
+      0% 100%,
+      50% 100%,
+      50% 0,
+      50% 0,
+      50% 100%,
+      50% 100%,
+      0 100%,
+      100% 100%,
+      100% 0%
+    );
+  }
+
+  .nav-link span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+  }
+
+  .nav-link:hover span {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@import url("./cursor.css");
