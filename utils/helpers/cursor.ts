@@ -45,7 +45,7 @@ class Cursor {
 
   init() {
     this.el.append(this.text);
-    this.body.append(this.el);
+    this.body.children().append(this.el);
     this.bind();
     this.move(-window.innerWidth, -window.innerHeight, 0);
   }
