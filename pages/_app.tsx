@@ -13,26 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <LocomotiveScrollProvider
-        options={{
-          smooth: true,
-          smartphone: {
-            smooth: true,
-          },
-          scrollbarClass: "scrollbar",
-        }}
-        watch={[]}
-        location={asPath}
-        onLocationChange={(scroll: any) => scroll.scrollTo("top", { disableLerp: true })}
-        containerRef={containerRef}
-      >
-        <Header />
-        <main data-scroll-container ref={containerRef}>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </main>
-      </LocomotiveScrollProvider>
+      <Component {...pageProps} />
     </>
   );
 }
