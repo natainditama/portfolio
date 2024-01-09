@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "group:all"],
+  "labels": ["type: dependencies"],
+  "major": {
+    "enabled": false
+  }, 
+  "prCreation": "not-pending",
+  "semanticCommits": "enabled",
+  "stabilityDays": 3
+}
