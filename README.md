@@ -1,34 +1,147 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <h1>Genie</h1>  
+  <p>
+    Flexible github repository template for projects! 
+  </p>
 
-First, run the development server:
+<!-- Badges -->
+<p>
+  <a href="https://github.com/natainditama/genie/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/natainditama/genie" alt="contributors" />
+  </a>
+  <a href="https://github.com/natainditama/genie">
+    <img src="https://img.shields.io/github/last-commit/natainditama/genie" alt="last update" />
+  </a>
+  <a href="https://github.com/natainditama/genie/network/members">
+    <img src="https://img.shields.io/github/forks/natainditama/genie" alt="forks" />
+  </a>
+  <a href="https://github.com/natainditama/genie/stargazers">
+    <img src="https://img.shields.io/github/stars/natainditama/genie" alt="stars" />
+  </a>
+  <a href="https://github.com/natainditama/genie/issues/">
+    <img src="https://img.shields.io/github/issues/natainditama/genie" alt="open issues" />
+  </a>
+  <a href="https://github.com/natainditama/genie/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/natainditama/genie.svg" alt="license" />
+  </a>
+</p>
+   
+<h4>
+    <a href="https://github.com/natainditama/genie/">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/genie">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/genie/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/genie/issues/">Request Feature</a>
+  </h4>
+</div>
+
+<br />  
+
+<div align="center"> 
+  <img src="https://placehold.co/1280x720?text=Your+Screenshot+here" alt="screenshot" />
+</div>
+
+<br />  
+
+<!-- About the Project -->
+## 📝 About the Project
+
+<!-- Features -->
+### 🌟 Features
+
+This project includes the following features:
+
+- Feature 1 : [Description of feature]
+- Feature 2 : [Description of feature]
+- Feature 3 : [Description of feature]
+
+<!-- Color Reference -->
+### 🎨 Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Background Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+<!-- Getting Started -->
+## 🚀 Getting Started
+
+<!-- Prerequisites -->
+### 🔧 Prerequisites
+
+- Prerequisite 1
+- Prerequisite 2
+- Prerequisite 3
+
+<!-- Run Locally -->
+### 🏃 Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/natainditama/genie.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd my-project
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  yarn
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- Contributing -->
+## 👋 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a href="https://github.com/natainditama/genie/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=natainditama/genie" />
+</a><br/>
 
-## Deploy on Vercel
+Contributions are always welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See [contributing.md](https://github.com/natainditama/genie/blob/main/.github/CONTRIBUTING.md) for ways to get started.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- Acknowledgments -->
+## 🙏 Acknowledgements
+
+Special thanks to contributors for their valuable contributions to this project:
+
+- [Project 1](https://project/)
+- [Project 2](https://project/)
+- [Project 3](https://project/)
+
+<!-- Code of Conduct -->
+### 📜 Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/natainditama/genie/blob/main/.github/CODE_OF_CONDUCT.md)
+
+<!-- License -->
+## ⚠️ License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/natainditama/genie/blob/main/LICENSE) file for details
+
+<!-- Contact -->
+## 🤝 Contact
+
+Contact me for inquiries, suggestions, or contributions via the following channels:
+
+- [Email](mailto:natainditama.dev@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/natainditama)
+- [GitHub](https://github.com/natainditama)
+
+Thank you for your support, interest, feedback, and contributions!
