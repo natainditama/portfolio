@@ -9,7 +9,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
       <section className="h-screen bg-black text-center w-full">
-        <Particles className="absolute inset-0" quantity={100} />
+        <Particles
+          className="absolute inset-0 h-screen w-screen overflow-hidden"
+          quantity={100}
+        />
         <div className="container mx-auto flex h-full flex-col justify-center text-white z-10 relative">
           <h1 className="text-3xl md:text-5xl lg:text-6xl max-w-2xl mx-auto font-bold">
             Sorry, we&apos;re doing some work on the site
