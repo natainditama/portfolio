@@ -16,4 +16,4 @@ jobs:
 
       # Check commitlint
       - name: Check commitlint
-        uses: wagoid/commitlint-github-action@v5
+        uses: wagoid/commitlint-github-action@v6
